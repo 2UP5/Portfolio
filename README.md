@@ -1,17 +1,16 @@
-2UP5 - Multi-faceted Developer with experience Programming, 3D Modelling and Indie Game Development.
-    (Richard)
-
-
-Programming:
-
-3D Modelling:
-
-Game Development:
+<body background-color: white>
+    <h1 align="center">2UP5 (Richard)</h1>
+    <h2>Multi-faceted Developer with experience Programming, 3D Modelling and Indie Game Development.</h2>
+</body>
 
 
 
-<h1 align="center">Hi 👋, I'm 1wesw2</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h4>Programming:</h4>
+
+<h4>3D Modelling:</h4>
+
+<h4>Game Development:</h4>
+
 
 - 🔭 I’m currently working on **21**
 

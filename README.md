@@ -1,15 +1,17 @@
-<body background-color: white>
-    <h1 align="center">2UP5 (Richard)</h1>
-    <h2>Multi-faceted Developer with experience Programming, 3D Modelling and Indie Game Development.</h2>
-</body>
+<h1 align="center">$${\textsf{\color{#960018}2UP5}}$$ $${\textsf{\color{#960018}(Richard)}}$$ </h1>
+<h3 align="center">Multi-faceted Developer with experience Programming, 3D Modelling and Indie Game Development.</h3>
+
+<h1> </h1>
+
+<div>
+  <h4>Programming:</h4>
+
+  <h4>3D Modelling:</h4>
+
+  <h4>Game Development:</h4>
+</div>
 
 
-
-<h4>Programming:</h4>
-
-<h4>3D Modelling:</h4>
-
-<h4>Game Development:</h4>
 
 
 - 🔭 I’m currently working on **21**

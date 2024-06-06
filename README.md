@@ -3,6 +3,8 @@
 <h3 align="center">Game Developer | Programmer | 3D Modeller </h3>
 <h1> </h1>
 
+<img src="https://github.com/2UP5/Portfolio/blob/Game-Development/4K_teaser2.png"></img>
+
 <div>
   <h4>Programming:</h4>
    The list of programming languages I've used in the past and have a comprehensive (or higher) level of understanding in are as follows:

@@ -1,0 +1,8 @@
+Materials are courtesy of FreePBR. 
+Not all textures packed in the zip folder were used on the final model.
+
+
+File contains various collections. "Show Shoe" is a collection with all  modifiers applied. Both "Shoe 1" and "Shoe 2" collections are editable i.e. modifiers have not been fully applied, however Shoe 1 is recommended to edit due to it being already positioned at origin and essentially the original model I worked with.
+
+
+That said, you are not entitled to taking advantage of this and reselling an "edited" version.

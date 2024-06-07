@@ -1,0 +1,24 @@
+Name: john doe
+Age: 19
+Current Working Grade: B
+Classes Attended: 100.000000
+Attendance: 50.000000%
+
+Name: john doe
+Age: 19
+Current Working Grade: C
+Classes Attended: 50.000000
+Attendance: 25.000000%
+
+Name: john doe
+Age: 18
+Current Working Grade: C
+Classes Attended: 130.000000
+Attendance: 65.000000%
+
+Name: john doe
+Age: 19
+Current Working Grade: A
+Classes Attended: 125.000000
+Attendance: 62.500000%
+

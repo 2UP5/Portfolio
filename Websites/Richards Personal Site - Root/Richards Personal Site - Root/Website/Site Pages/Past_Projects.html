@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title> Richards Personal Site </title>	<!--Site tab title-->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	<!-- References w3 schools responsiveness stylesheet via the network. Unfortunately results in offline failure risks. -->
+		<link rel="stylesheet" href="../Stylesheets/Global_Styles.css">	<!-- References the stylesheet intended for multi page use. (Due to certain consistent elements requiring some classes within the stylesheet.) -->
+		<link rel="stylesheet" href="../Stylesheets/Past_Projects_Styles.css">	<!-- References the stylesheet created specifically for the designs on this page.-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">	<!--References the "Quicksand" font from Google's font API services--> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">	<!-- Fixes site content to match the device screen the page displays on. -->
+	</head>
+	
+	<body class="w3-row glob-body_Style">	<!-- References the "w3-row" class from the w3 stylesheet to aid responsiveness and references "body_Style" from the referenced stylesheet. -->
+	
+		<section class="glob-navSection_Style">	<!-- Creates a section dedicated to site navigation elements. -->
+			<!-- The following links sit within a div construction so I can have much more control on specific parts without weird bugs occuring (<a> tags) have html pages and stylesheets attached to them.-->
+			<div class="glob-navDiv_Style">
+				<a href="Home.html" 				title="Home"				class="glob-nav1_Style"> Home <hr				class="glob-navHR_Style"></a>
+				<a href="About.html"				title="About"				class="glob-nav2_Style"> About <hr			class="glob-navHR_Style"></a>
+				<a href="Past_Projects.html"		title="Past Projects"		class="glob-nav3_Style"	id="curPage"> Past Projects <hr	class="glob-navHR_Style"></a>
+				<a href="Skills.html"				title="Skills"				class="glob-nav4_Style"> Skills <hr				class="glob-navHR_Style"></a>
+				<a href="CPD.html"					title="CPD - Continuous Professional Development"	class="glob-nav5_Style"> CPD <hr		class="glob-navHR_Style"></a>
+			</div>
+		</section>
+
+		
+		<div>
+			<h1 class="glob-siteHeader_Style"> Past Projects <hr class="glob-siteHR_Style"></h1>	<!--Creates a page header which references styles from the "Global_Styles" css file.-->
+		</div>
+		
+		<div style="text-align:center">
+			<a href="https://richardlevel2computingual.wordpress.com/richarddejager_portfolio/unity-projects/"> Visit my previous projects here (external) </a>	<!--Small, out of the way structure offering external information - helps to avoid page clutter-->
+		</div>
+
+
+		<div>
+			<h2	class="proj_Header1"> Most Recent - Stardust	<hr	class="proj_HR1"></h2>	<!--Creates a second page header which references styles from the "Past_Projects_Styles" css file.-->
+		</div>
+
+
+		<section 	class="video_Structure">	<!--Creates a structure for holding two videos side by side-->
+			<video width="500"	height="500"	controls	class="video1"	poster="../Images/Past_Projects_Images/Stardust_Thumbnail.png">	<!--Defines the properties for this video-->
+				<source src="../Videos/Stardust_Trailer.mp4" alt="Stardust Project - First Trailer (Teaser)" type="video/mp4">	<!--References video location, video file type and alt text for accessibility if the video fails to load (or for audio description, offered by Narrator or ChromeVOX).-->
+			Your browser does not support videos	<!--Only appears if ones browser does not support videos-->
+			</video>
+
+			<video width="500" height="500"		controls	class="video2"	poster="../Images/Past_Projects_Images/Stardust_Thumbnail2.png">	<!--Defines the properties for this video-->
+				<source src="../Videos/Stardust Trailer 2.mp4" alt="Stardust Project - Second Trailer (Gameplay)" type="video/mp4"> <!--References video location, video file type and alt text for accessibility if the video fails to load (or for audio description, offered by Narrator or ChromeVOX).-->
+			Your browser does not support videos	<!--Only appears if ones browser does not support videos-->
+			</video>
+		</section>
+
+
+		<div class="embeddedSection_Style">	<!--Creates an embedded section (using the embeddedSection style) containing information that fits within the page parameters as referred by the page title.-->
+			<p> Stardust is currently my most developed project to date, incorporating various libraries such as BinaryReader and BinaryWriter as well as some early prototyping which utilised DateTime. I did some extra testing and decided to play around with Unity OSC, which allowed me to experiment with ports and use my phone in conjunction with the game to produce a new gameplay effect.</p>
+			<p> The project, in summary, is a tycoon game centered around purchasing and launching rockets in order to obtain research, complete Government contracts and eventually intergalactically populate. By design, the project is only meant to be a demonstrative version of what the game could look and feel like if it were to be continued on in the future to a standard of completion.</p>
+		</div>
+	</body>
+	
+	
+	<footer	class="glob-footer_Style">
+		<p> Everything found here is solely property of Richard de Jager </p>	<!-- A footer element -->
+	</footer>
+</html>

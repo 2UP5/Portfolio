@@ -1,0 +1,6 @@
+W - Move up
+A - Move left
+S - Move right
+D - Move down
+
+2 - Hit

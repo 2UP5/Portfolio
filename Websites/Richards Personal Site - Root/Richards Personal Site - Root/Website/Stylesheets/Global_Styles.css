@@ -1,0 +1,56 @@
+
+	.glob-body_Style {display:viewport; 	background-color:#191919;	font-family:Calibri;	color:white;	margin-left:auto;	margin-right:auto;	width:100%;}
+	
+	
+	.glob-siteHeader_Style {text-align:center; 		text-shadow:5px 5px 10px black; font-size:30px;}
+	.glob-siteHR_Style	  {width:15%;	margin-left:auto; margin-right:auto; border-width:2px; box-shadow:5px 5px 20px black;}
+	
+	
+	.glob-navSection_Style	{background-color:#121212;		border:2.5px groove white; 	box-shadow:5px 5px 10px black; height:60px;}
+	.glob-navHR_Style 	{border:2px outset white;			width:95%;					margin-top:2px;}
+	.glob-navDiv_Style 	{display:flex;					flex-flow:row wrap;			justify-content:center;}
+	
+	.glob-nav1_Style {font-weight:bold;			width:65px;				font-size:25px;	text-decoration:none;	text-shadow:5px 5px 20px black;}
+	.glob-nav2_Style {margin-left:100px;		font-weight:bold;		width:65px;		text-decoration:none;	font-size:25px;		text-shadow:5px 5px 20px black;}
+	.glob-nav3_Style {margin-left:100px;		font-weight:bold;		width:140px;	text-decoration:none;	font-size:25px;		text-shadow:5px 5px 20px black;}
+	.glob-nav4_Style {margin-left:100px;		font-weight:bold;		width:55px;		text-decoration:none;	font-size:25px;		text-shadow:5px 5px 20px black;}
+	.glob-nav5_Style {margin-left:100px;		font-weight:bold;		width:45px;		text-decoration:none;	font-size:25px;		text-shadow:5px 5px 20px black;}
+	
+	
+	.glob-footer_Style	{font-size:20px; box-shadow:5px 5px 20px black;	background-color:#0b0b0b;	margin-right:auto; margin-left:auto;  margin-top:50px; text-align:center;	padding-top: 100px;	padding-bottom: 100px;}
+	
+
+	li{margin-left:10px;	font-family: Quicksand;	font-size:	16px;		line-height: 30px;}
+	p{margin-left:10px;		font-family: Quicksand;	letter-spacing: 1.5px;	font-size: 18px;}
+
+	h1{margin-left:10px;	font-family: Quicksand;}
+	h2{margin-left:10px;	font-family: Quicksand;}
+	h3{margin-left:10px; 	color:black;	font-weight: bold;	font-family: Quicksand;}
+	h4{margin-left:10px;	font-family: Quicksand;}
+	h5{margin-left:10px;	font-family: Quicksand;}
+	h6{margin-left:10px;	font-family: Quicksand;}
+
+	#curPage{color:rgb(85, 182, 85);}
+	
+
+	a:hover{color: darkgray;}
+	
+	@media (max-width: 800px) {
+	  
+		.glob-navDiv_Style {
+		flex-flow: row wrap;
+		justify-content:center-right;
+		}
+		
+		.glob-navSection_Style {height:5%}
+		.glob-siteHR_Style	{width:60%}
+		.glob-footer_Style {margin-top: 0px;}
+		
+		.glob-nav2_Style {margin-left:10%}
+		.glob-nav3_Style {margin-left:10%;}
+		.glob-nav4_Style {margin-left:10%;}
+		.glob-nav5_Style {margin-left:10%;}
+
+		p{font-size: 16px;}
+		li{font-size: 16px;}
+	}

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title> Richards Personal Site </title>	<!--Site tab title-->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	<!-- References w3 schools responsiveness stylesheet via the network. Unfortunately results in offline failure risks. -->
+		<link rel="stylesheet" href="../Stylesheets/Global_Styles.css">	<!-- References the stylesheet intended for multi page use. (Due to certain consistent elements requiring some classes within the stylesheet.) -->
+		<link rel="stylesheet" href="../Stylesheets/CPD_Styles.css">	<!-- References the stylesheet created specifically for the designs on this page.-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">	<!--References the "Quicksand" font from Google's font API services--> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">	<!-- Fixes site content to match the device screen the page displays on. -->
+	</head>
+	
+	<body class="w3-row glob-body_Style">	<!-- References the "w3-row" class from the w3 stylesheet to aid responsiveness and references "body_Style" from the referenced stylesheet. -->
+	
+		<section class="glob-navSection_Style">	<!-- Creates a section dedicated to site navigation elements. -->
+			<!-- The following links sit within a div construction so I can have much more control on specific parts without weird bugs occuring (<a> tags) have html pages and stylesheets attached to them.-->
+			<div class="glob-navDiv_Style">
+				<a href="Home.html" 				title="Home"				class="glob-nav1_Style"> Home <hr				class="glob-navHR_Style"></a>
+				<a href="About.html"				title="About"				class="glob-nav2_Style"> About <hr			class="glob-navHR_Style"></a>
+				<a href="Past_Projects.html"		title="Past Projects"		class="glob-nav3_Style"> Past Projects <hr	class="glob-navHR_Style"></a>
+				<a href="Skills.html"				title="Skills"				class="glob-nav4_Style"> Skills <hr				class="glob-navHR_Style"></a>
+				<a href="CPD.html"					title="CPD - Continuous Professional Development"	class="glob-nav5_Style"	id="curPage"> CPD <hr		class="glob-navHR_Style"></a>
+			</div>
+		</section>
+
+		
+		<div>
+			<h1 class="glob-siteHeader_Style"> CPD <hr class="glob-siteHR_Style"></h1>	<!--Creates a page header which references styles from the "Global_Styles" css file.-->
+		</div>
+
+
+		<section class="w3-container">
+			<div id="CPDEmbed" class="embeddedSection_Style">	<!--Creates an embedded section (using the embeddedSection style) containing information that fits within the page parameters as referred by the page title.-->
+				<p> This page details my CPD plan and the recorded information as a result of executing the plan. </p>
+			</div>
+	
+	
+			<div id="CPDEmbed" class="embeddedSection_Style">	<!--Creates an embedded section (using the embeddedSection style) containing information that fits within the page parameters as referred by the page title.-->
+				<h3> Plan: <hr></h3>
+				<p> The plan for professionally developing myself involves exploring socially, building connections within my course (that could potentially be utilised in a professional aspect), building and solidifying my knowledge in my general specification, understanding the history of my specialization and beyond. </p>
+			</div>
+		</section>
+		
+		
+		<section class="table_Structure"> <!--Creates a section for a table of elements. Uses the style information for design (table_Structure) and responsivity (w3-container)-->
+
+			<div class="table_Header">	<!-- Table Header Div -->
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Goal </p>	<!--Column 1 Header-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> What Will I Do? </p>	<!--Column 2 Header-->
+				</div>
+				
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Date to be completed by </p>	<!--Column 3 Header-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Date(s) Attended </p>	<!--Column 4 Header-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Reflection </p>	<!--Column 5 Header-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> CPD hours accrued (max 10 hrs per goal) </p>	<!--Column 6 Header-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Evidence </p>	<!--Column 7 Header-->
+				</div>
+			</div>
+
+
+			<div class="table_Row_Structure">	<!-- First Table Information Row -->
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Attend SST Event </p> <!--Column 1 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Find more information from stalls that draw my attention, explore the event </p><!--Column 2 Information-->
+				</div>
+				
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 12th October 2022 </p>	<!--Column 3 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 12th October 2022 </p>	<!--Column 4 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Found a stall about JobShop and UniTemps. </p>	<!--Column 5 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 3 hours </p>	<!--Column 6 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<img src="../Images/CPD_Evidence/SST_Event/IMG_3285.png" alt="Evidence of SST Event" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+				</div>
+			</div>
+
+
+			<div class="table_Row_Structure">	<!-- Second Table Information Row -->
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> C# interview preparation and C# knowledge strengthening </p>	<!--Column 1 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Watch a LinkedIn Learning video on nailing a C# interview - understand technical questions and strengthen base C# knowledge </p>	<!--Column 2 Information-->
+				</div>
+				
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 13th October 2022 </p>	<!--Column 3 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 13th October 2022 </p>	<!--Column 4 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+
+					<p class="const_Table_Elem_Width" title="Learned more about C, C++ and C# . C# can be used in managed and unmanaged code but it isn’t recommended to write unmanaged code with C# due to security consequences. "> Learned various good and bad practices.  </p>	<!--Column 1 Information-->
+						
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 2 hours </p>	<!--Column 6 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<img src="../Images/CPD_Evidence/LinkedIn/linkedIn_Evidence.png" alt="CPD evidence of LinkedIn C# course" id="CPD_Image_Higher_Scale" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+					<a id="CPD_Image_Link" href="https://drive.google.com/file/d/1WdpaBRxZbnt3NYquxrJ6wGmHzKCko9nl/view?usp=sharing"> See the image in full </a>
+				</div>
+			</div>
+
+
+			<div class="table_Row_Structure">	<!-- Third Table Information Row -->
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Bletchley Park </p>	<!--Column 1 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Explore Bletchley Park, find out its history and what it was used for </p>	<!--Column 2 Information-->
+				</div>
+				
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 3rd November 2022 </p>	<!--Column 3 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 3rd November 2022 </p>	<!--Column 4 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Found out that Bletchley park was used as a base of operations for “Codebreakers” who would decipher Nazi messages. </p>	<!--Column 5 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 8 hours </p>	<!--Column 6 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3376.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3377.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3378.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3379.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3380.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3381.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3382.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+				</div>
+			</div>
+
+
+			<div class="table_Row_Structure">	<!-- Fourth Table Information Row -->
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Mentor Session </p>	<!--Column 1 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Ask questions about tests, topics, being a student </p>	<!--Column 2 Information-->
+				</div>
+				
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 20th October 2022, 27th October 2022, 10th November 2022 </p>	<!--Column 3 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 20th October 2022, 27th October 2022 </p>	<!--Column 4 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Received useful advice to improve academically and elsewhere </p>	<!--Column 5 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 2 hours </p>	<!--Column 6 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Hannah Jacob can provide evidence </p>	<!--Column 7 Information-->
+				</div>
+			</div>
+
+
+			<div class="table_Row_Structure">	<!-- Fifth Table Information Row -->
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> CompSci Bowling Night </p>	<!--Column 1 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Participate and potentially make friends/connections for the course and future endeavors. </p>	<!--Column 2 Information-->
+				</div>
+				
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 27th October 2022</p>	<!--Column 3 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 27th October 2022 </p>	<!--Column 4 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> Had fun and made a few connections within the CompSci group. </p>	<!--Column 5 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<p class="const_Table_Elem_Width"> 2 hours </p>	<!--Column 6 Information-->
+				</div>
+
+				<div class="table_Cell_Structure">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3350.jpg" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3353.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3354.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3355.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3356.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3357.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3358.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">	
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="w3-container mobile_Table_Structure">
+
+			<!--First Table Content-->
+			<div id="Main">
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Goal </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Div -->
+						<p class="const_Table_Elem_Width"> Attend SST Event </p> <!-- Information-->
+				</div>
+			<div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> What Will I Do? </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Find more information from stalls that draw my attention, explore the event </p><!--Information-->
+				</div>
+			</div>
+
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date To Be Completed By </p>	<!-- Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+					<p class="const_Table_Elem_Width"> 12th October 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date(s) Attended </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 12th October 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Reflection </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Found a stall about JobShop and UniTemps. </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> CPD hours accrued (max 10 hrs per goal) </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 3 hours </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Evidence </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<img src="../Images/CPD_Evidence/SST_Event/IMG_3285.png" alt="Evidence of SST Event" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+				</div>
+			</div>
+
+
+			<!--Second Table Content-->
+			<div id="Main">
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Goal </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+						<p class="const_Table_Elem_Width"> C# interview preparation and C# knowledge strengthening </p> <!--Information-->
+				</div>
+			<div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> What Will I Do? </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Watch a LinkedIn Learning video on nailing a C# interview - understand technical questions and strengthen base C# knowledge </p><!--Information-->
+				</div>
+			</div>
+
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date To Be Completed By </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+					<p class="const_Table_Elem_Width"> 13th October 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date(s) Attended </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 13th October 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Reflection </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Learned various good and bad practices. </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> CPD hours accrued (max 10 hrs per goal) </p>	<!--Header-10px-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 2 hours </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Evidence </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<img src="../Images/CPD_Evidence/LinkedIn/linkedIn_Evidence.png" alt="Evidence of LinkedIn Learning" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+				</div>
+			</div>			
+
+
+			<!--Third Table Content-->
+			<div id="Main">
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Goal </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+						<p class="const_Table_Elem_Width"> Bletchley Park </p> <!--Information-->
+				</div>
+			<div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> What Will I Do? </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width">Explore Bletchley Park, find out its history and what it was used for </p><!--Information-->
+				</div>
+			</div>
+
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date To Be Completed By </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+					<p class="const_Table_Elem_Width"> 3rd November 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date(s) Attended </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 3rd November 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Reflection </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Found out that Bletchley park was used as a base of operations for “Codebreakers” who would decipher Nazi messages. </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> CPD hours accrued (max 10 hrs per goal) </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 8 hours </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Evidence </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3376.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3377.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3378.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3379.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3380.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3381.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/Bletchley_Park/IMG_3382.png" alt="CPD Evidence of Bletchley Park trip" class="w3-round CPD_Images">
+				</div>
+			</div>
+
+
+			<!--Fourth Table Content-->
+			<div id="Main">
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Goal </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+						<p class="const_Table_Elem_Width"> Mentor Session </p> <!--Information-->
+				</div>
+			<div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> What Will I Do? </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Ask questions about tests, topics, being a student </p><!--Information-->
+				</div>
+			</div>
+
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date To Be Completed By </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+					<p class="const_Table_Elem_Width"> 20th October 2022, 27th October 2022, 10th November 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date(s) Attended </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 20th October 2022, 27th October 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Reflection </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Received useful advice to improve academically and elsewhere </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> CPD hours accrued (max 10 hrs per goal) </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 2 hours </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Evidence </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Hannah Jacob can provide evidence </p>	<!--Information-->
+				</div>
+			</div>			
+
+
+			<!--Fifth Table Content-->
+			<div id="Main">
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Goal </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+						<p class="const_Table_Elem_Width"> CompSci Bowling Night </p> <!--Information-->
+				</div>
+			<div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> What Will I Do? </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Participate and potentially make friends/connections for the course and future endeavors. </p><!--Information-->
+				</div>
+			</div>
+
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date To Be Completed By </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">	<!-- First Table Information Row -->
+					<p class="const_Table_Elem_Width"> 27th October 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Date(s) Attended </p>	<!--Header-->
+				</div>
+
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 27th October 2022 </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Reflection </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> Had fun and made a few connections within the CompSci group. </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> CPD hours accrued (max 10 hrs per goal) </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<p class="const_Table_Elem_Width"> 2 hours </p>	<!--Information-->
+				</div>
+			</div>
+			
+
+			<div>
+				<div class="mobile_Table_Header">		<!-- Table Header Div -->
+					<p class="const_Table_Elem_Width"> Evidence </p>	<!--Header-->
+				</div>
+	
+				<div class="mobile_Table_Content">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3350.jpg" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">	<!-- Displays evidence of CPD activity. Alt tag offers accessibility in the case that the image fails to load (or for audio description, offered by Narrator or ChromeVOX). Column 7 Information-->
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3353.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3354.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3355.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3356.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3357.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">
+					<img src="../Images/CPD_Evidence/CompSci_Bowl_Night/IMG_3358.JPG" alt="Computer Science students at Bowling night" class="w3-round CPD_Images">	
+				</div>
+			</div>			
+		</section>
+
+		
+		<div>
+			<h4 class="tot_Hrs_Elem">Total Hours: 17</h4>	<!--Element indicating total number of hours accumulated from CPD-->
+		<div>
+		
+	</body>
+	
+	
+	<footer	class="glob-footer_Style">
+		<p> Everything found here is solely property of Richard de Jager </p>	<!-- A footer element -->
+	</footer>
+</html>

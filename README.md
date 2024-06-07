@@ -1,4 +1,4 @@
-<h1 align="center">$${\textsf{\color{#960018}2UP5}}$$ $${\textsf{\color{#960018}(Richard)}}$$ </h1>
+<h1 align="center">$${\textsf{\color{#40E0D0}2UP5}}$$ $${\textsf{\color{#40E0D0}(Richard)}}$$ </h1>
 <h3 align="center">Multi-faceted Developer with experience Programming, 3D Modelling and Indie Game Development.</h3>
 <h3 align="center">Game Developer | Programmer | 3D Modeller </h3>
 <h1> </h1>
@@ -6,7 +6,7 @@
 <img src="https://github.com/2UP5/Portfolio/blob/Game-Development/4K_teaser2.png"></img>
 
 <div>
-  <h4>Programming:</h4>
+  <h4>${\textsf{\color{#40E0D0}Programming:}}$</h4>
    The list of programming languages I've used in the past and have a comprehensive (or higher) level of understanding in are as follows:
    <h3></h3>
   
@@ -20,11 +20,11 @@
   - <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" alt="python" width="40" height="40"/> </a>
 
 
-  <h4>3D Modelling:</h4>
+  <h4>${\textsf{\color{#40E0D0}3D Modelling:}}$</h4>
    <p>From 16 to 18, I learned how to create 3D assets for games and other media.</p>
 
    <p>Learned how to use Blender then proceeded to create 3D assets, render them and eventually I pushed further to much more accurately recreate real life props such as weapons as well as incorporate PBR materials to emphasise realism, and cheaply add detail without implementing any extra geometry.</p>
-  <h4>Game Development:</h4>
+  <h4>${\textsf{\color{#40E0D0}Game Development:}}$</h4>
    <p>I was always interested in creating a game, ever since I was first exposed to video games as early as 5 years old. From the old windows vista games to PS3, as I grew older and learned more, I attempted putting what I learned into practice into various projects. Released two of these projects prematurely and suffered failures as a result while the rest have remained unfinished or stored away. Quite a few of my video game projects were developed using Unity.</p>
 </div>
 

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Prestige Blooming </title>
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	<!-- References w3 schools responsiveness stylesheet via the network. Unfortunately results in offline failure risks. -->
+        <link rel="stylesheet" href="../Stylesheets/Global_Styles.css">	<!-- References the stylesheet intended for multi page use. (Due to certain consistent elements requiring some classes within the stylesheet.) -->
+        <link rel="stylesheet" href="../Stylesheets/About_Styles.css">	<!-- References the stylesheet created specifically for the designs on this page.-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">	<!--References the "Quicksand" font from Google's font API services--> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Laila">	<!--References the "Quicksand" font from Google's font API services--> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">	<!-- Fixes site content to match the device screen the page displays on. -->
+    </head>
+
+    <body class="glob_Page">
+        
+        <!-- Site Header -->
+        <div style="position: fixed;">
+            <section class="glob_Section1">
+                <!-- <div class="glob_Announcement_Header">
+                </div> -->
+                
+                <section class="glob_Desktop_Logo">
+                    
+                    <h3 class="site_Title"> PRESTIGE BLOOMING </h3>
+
+                    <section class="glob_Nav_Section">
+                        
+                        <div class="glob_Nav">
+                            <a href="../index.html" title="Home" class="glob_NavButtons"> HOME </a>
+                            <a href="About.html" title="About" class="glob_NavButtons"> ABOUT </a>
+                            <a href="Services.html" title="Services" class="glob_NavButtons"> SERVICES </a>
+                            <a href="Contact.html" title="Contact" class="glob_NavButtons"> CONTACT </a>
+                            <!-- <img style="width: 100%; margin-left: 20%;" src="Images/Home_Images/banner_plants.png"> </img> -->
+                        </div>
+                        
+                    </section>
+                </section>
+                
+                <section class="glob_Mobile_Nav">
+                    <a onclick="toggle_HamMenu()">
+                        <img style="width: 10%;" src="../Images/ham_menu.jpg"> </img>
+                    </a>
+                    
+                    <img style="width: 35%; margin-left: 20%;" src="../Images/LOGO2.png"> </img>
+                </section>
+                <!-- <img class="logo" src="Images/Logo.JPG"> -->
+            </section>
+            
+    
+            <section class="ham_Menu_Links" style="display: none;">
+                <div>
+                    <a href="../index.html" title="Home" class="glob_NavButtons"> HOME </a>
+                    <a href="About.html" title="About" class="glob_NavButtons"> ABOUT </a>
+                    <a href="Services.html" title="Services" class="glob_NavButtons"> SERVICES </a>
+                    <a href="Contact.html" title="Contact" class="glob_NavButtons"> CONTACT </a>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="banner_Section">
+            <section class="bannerSlides">      
+                <img class="banner_Image" src="../Images/Home_Images/banner1.png" alt="Prestige Blooming - banner with garden previews">    
+            </section>
+
+            <section class="bannerSlides">      
+                <img class="banner_Image" src="../Images/Home_Images/banner2.png" alt="Prestige Blooming - banner with garden previews">    
+            </section>
+        </div>
+
+
+        <!-- about Section -->
+        <section class="about_Section1">        
+
+            <div class="about_SortHeader">
+                <p class="about_SortHeaderContent">About</p>
+                <!-- <p class="about_SortHeaderContent">FILTER</p> -->
+            </div>
+            
+
+            <div class="about_Desktop_Tiled">
+                <div class="about_List">
+
+                    <div style="margin-left: 10%; margin-right: 10%;">
+                        <div style="padding-top: 2.5%; padding-bottom: 2.5%; padding-left: 10%; padding-right: 10%; background-color: #2c6441; color: white; box-shadow: 5px 5px 20px black;">
+                            <p>Prestige Blooming is a visionary business dedicated to transforming the gardens of homes into accessible retreats and havens of natural beauty and tranquility.
+                                We specialise in helping individuals bring their garden ideas to life by seamlessly integrating their ideas with their existing living spaces.
+                                Our mission is to create affordables oases of relaxation and serenity for families, offering a respite from the demands of their daily lives.
+                            </p>
+
+                            <p> Originally from Jamaica, the owner, Shirley Bailey has lived in the UK since 2002.
+                                From a farming family where both parents are farmers, Shirley grew up in the countryside surrounded by temperate and tropical plants alike.
+                                Part of this is the reason why her love for plants has grown exponentially. While she has studied various subjects and taken different career paths,
+                                her love for the outdoors was always there from her upbringing. Growing both indoor and outdoor plants, she now owns an allotment where she extends her love for the outdoors.<p>
+                        </div>
+
+                       
+                        <h3 style="margin-top: 5%;">Benefits for customers:</h3>
+                        <ul>
+                            <li>Affordable and customised garden design.</li>
+                            <li>Increased property value.</li>
+                            <li>A relaxing retreat for families.</li>
+                            <li>Improved well-being and mental health through natural surroundings.</li>
+                            <li>Sustainable and eco-friendly garden solutions.</li>
+                        </ul> 
+                        <div>
+                            <p style="margin-left: 1%;">For further details, see Services.</p>
+                        </div>
+                    <div>
+                </div>
+            </div>
+            
+
+            <div class="about_Mobile_Tiled">
+                
+            </div>
+        </section>
+    </body>
+
+
+    <footer>
+        <div class="glob_Footer_Div">
+            <p class="glob_Footer_Text"> Prestige Blooming </p>
+        </div>
+    </footer>
+
+
+    <script>
+        let slideIndex = 0;
+        showBanners();
+        
+        function showBanners() {
+          let i;
+          let slides = document.getElementsByClassName("bannerSlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showBanners, 3000); // Change image every 2 seconds
+        }
+
+
+        function toggle_HamMenu() {
+            var menu = document.getElementsByClassName("ham_Menu_Links");
+            if (menu[0].style.display != "none") {
+                
+                menu[0].style.animationName = "hide_Ham_Menu_Anim";
+                setTimeout(setDisplay, 500, menu);
+                
+            } else {
+
+                menu[0].style.animationName = "show_Ham_Menu_Anim";
+                setTimeout(setDisplay, 0, menu)
+            }
+        }
+
+        function setDisplay(menu)
+        {
+            if (menu[0].style.display != "none") {
+                
+                menu[0].style.display = "none";
+                
+            } else {
+
+                menu[0].style.display = "block";
+            }
+        }
+    </script>
+</html>

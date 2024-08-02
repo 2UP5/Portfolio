@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Dynasty Organics </title>
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	<!-- References w3 schools responsiveness stylesheet via the network. Unfortunately results in offline failure risks. -->
+        <link rel="stylesheet" href="Stylesheets/Global_Styles.css">	<!-- References the stylesheet intended for multi page use. (Due to certain consistent elements requiring some classes within the stylesheet.) -->
+        <link rel="stylesheet" href="Stylesheets/Home_Styles.css">	<!-- References the stylesheet created specifically for the designs on this page.-->
+        <link rel="stylesheet" href="Stylesheets/Products_Styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">	<!--References the "Quicksand" font from Google's font API services--> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Laila">	<!--References the "Quicksand" font from Google's font API services--> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">	<!-- Fixes site content to match the device screen the page displays on. -->
+    </head>
+
+    <body class="glob_Page">
+        
+        <!-- Site Header -->
+        <div style="position: fixed;">
+            <section class="glob_Section1">
+                <!-- <div class="glob_Announcement_Header">
+                </div> -->
+                
+                <section class="glob_Desktop_Logo">
+
+                    <h3 class="site_Title"> DYNASTY ORGANICS </h3>
+
+                </section>
+                
+                <section class="glob_Mobile_Nav">
+                    <a onclick="toggle_HamMenu()">
+                        <img style="width: 10%;" src="Images/ham_menu.jpg"> </img>
+                    </a>
+                    
+                    <img style="width: 35%; margin-left: 20%;" src="Images/LOGO2.png"> </img>
+                </section>
+                <!-- <img class="logo" src="Images/Logo.JPG"> -->
+            </section>
+            
+    
+            <section class="glob_Nav_Section">
+                <div class="glob_Nav">
+                    <a href="index.html" title="Home" class="glob_NavButtons"> HOME </a>
+                    <a href="Pages/" title="About" class="glob_NavButtons"> ABOUT </a>
+                    <a href="Pages/Products.html" title="Products" class="glob_NavButtons"> PRODUCTS </a>
+                    <a href="Pages/Contact.html" title="Contact" class="glob_NavButtons"> CONTACT </a>
+                </div>
+                <p><hr style="width:100%"></p>
+            </section>
+
+            <section class="ham_Menu_Links" style="display: none;">
+                <div>
+                    <a href="index.html" title="Home" class="glob_NavButtons"> HOME </a>
+                    <!-- <a href="Pages/" title="About" class="glob_NavButtons"> ABOUT </a> -->
+                    <a href="Pages/Products.html" title="Products" class="glob_NavButtons"> PRODUCTS </a>
+                    <a href="Pages/Contact.html" title="Contact" class="glob_NavButtons"> CONTACT </a>
+                </div>
+                
+                <div>
+                    <p></p>
+                </div>
+
+                <div>
+                    <a href="index.html" title="Home" class="glob_NavButtons"> Face Oils </a>
+                    <a href="Pages/" title="About" class="glob_NavButtons"> Lip Balms </a>
+                    <a href="Pages/Products.html" title="Products" class="glob_NavButtons"> Lip Glosses </a>
+                    <a href="Pages/Contact.html" title="Contact" class="glob_NavButtons"> Lip Scrubs </a>
+                    <a href="Pages/Contact.html" title="Contact" class="glob_NavButtons"> Shea Butters </a>
+                </div>
+            </section>
+        </div>
+
+        
+
+        <!-- Home page slideshow -->
+        <div>
+            <section class="home_Section1 homeSlides">      
+                <img class="home_Image" src="Images/Products/Face_Oils/Rose Acai/IMG_4451.JPG" alt="Dynasty Organics - organic oils preview">    
+            </section>
+    
+            <section class="home_Section1 homeSlides">      
+                <img class="home_Image" src="Images/Products/Lip_Oils/IMG_4454.JPG" alt="Dynasty Organics - organic oils preview">    
+            </section>
+
+            <section class="home_Section1 homeSlides">      
+                <img class="home_Image" src="Images/Products/Lip_Scrubs/Red Sunset/IMG_4455.JPG" alt="Dynasty Organics - organic oils preview">    
+            </section>
+    
+            <section class="home_Section1 homeSlides">      
+                <img class="home_Image" src="Images/Products/Shea_Butters/IMG_4757.JPG" alt="Dynasty Organics - organic oils preview">    
+            </section>
+        </div>
+
+
+        <!-- Products Section -->
+        <section class="products_Section1">        
+            <div class="products_SubTitle">
+                <h3 class="products_Title_Home">Featured Products</h3>
+            </div>
+
+            <div class="products_SortHeader">
+                <!-- leave blank -->
+            </div>
+            
+
+            <div class="products_Desktop_Tiled">
+                <div class="products_List">
+                    <div>
+                        <img class="product_Image" src="Images/Products/Shea_Butters/Wild Rose/IMG_4754.JPG" alt="Cherry and Roses Shea Body Butter">  
+                        <p class="product_Name"> &#163;4.50 </p>
+                        <p class="product_Name"> Wild Rose Shea Body Butter </p>
+                    </div>
+                    
+                    <div>
+                        <img class="product_Image" src="Images/Products/Shea_Butters/Coconut/IMG_4755.JPG" alt="Coconut Shea Body Butter">  
+                        <p class="product_Name"> &#163;4.50 </p>
+                        <p class="product_Name"> Coconut Shea Body Butter </p>
+                    </div>
+                    
+                    <div>
+                        <img class="product_Image" src="Images/Products/Shea_Butters/Cinnamon/IMG_4763.JPG" alt="Cherry and Roses Shea Body Butter">  
+                        <p class="product_Name"> &#163;4.50 </p>
+                        <p class="product_Name"> Cinnamon Shea Body Butter </p>
+                    </div>
+                    
+                    <div>
+                        <img class="product_Image" src="Images/Products/Lip_Oils/Cherry Acai/IMG_4467.JPG" alt="Coconut Shea Body Butter">  
+                        <p class="product_Name"> &#163;2.00 </p>
+                        <p class="product_Name"> Cherry Acai Lip Oil </p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="products_Mobile_Tiled">
+                <div class="products_List">
+                    <div>
+                        <img class="product_Image" src="Images/Products/Shea_Butters/Wild Rose/IMG_4754.JPG" alt="Cherry and Roses Shea Body Butter">  
+                        <p class="product_Name"> &#163;4.50 </p>
+                        <p class="product_Name"> Wild Rose Shea Body Butter </p>
+                    </div>
+                    
+                    <div>
+                        <img class="product_Image" src="Images/Products/Shea_Butters/Coconut/IMG_4755.JPG" alt="Coconut Shea Body Butter">  
+                        <p class="product_Name"> &#163;4.50 </p>
+                        <p class="product_Name"> Coconut Shea Body Butter </p>
+                    </div>
+                </div>
+
+                <div class="products_List">
+                    <div>
+                        <img class="product_Image" src="Images/Products/Shea_Butters/Cinnamon/IMG_4763.JPG" alt="Cherry and Roses Shea Body Butter">  
+                        <p class="product_Name"> &#163;4.50 </p>
+                        <p class="product_Name"> Cinnamon Shea Body Butter </p>
+                    </div>
+                    
+                    <div>
+                        <img class="product_Image" src="Images/Products/Lip_Oils/Cherry Acai/IMG_4467.JPG" alt="Coconut Shea Body Butter">  
+                        <p class="product_Name"> &#163;4.00 </p>
+                        <p class="product_Name"> Cherry Acai Lip Oil </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="home_ViewProductsButton">
+                <a href="Pages/Products.html" title="View All Products" style="color: aliceblue; text-decoration: none;"> VIEW ALL PRODUCTS </a>
+            </div>
+        </section>
+    </body>
+
+
+    <footer>
+        <div class="glob_Footer_Div">
+            <p class="glob_Footer_Text"> Dynasty Organics </p>
+        </div>
+    </footer>
+
+    
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("homeSlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+
+        function toggle_HamMenu() {
+            var menu = document.getElementsByClassName("ham_Menu_Links");
+            if (menu[0].style.display != "none") {
+                
+                menu[0].style.animationName = "hide_Ham_Menu_Anim";
+                setTimeout(setDisplay, 500, menu);
+                
+            } else {
+
+                menu[0].style.animationName = "show_Ham_Menu_Anim";
+                setTimeout(setDisplay, 0, menu)
+            }
+        }
+
+        function setDisplay(menu)
+        {
+            if (menu[0].style.display != "none") {
+                
+                menu[0].style.display = "none";
+                
+            } else {
+
+                menu[0].style.display = "block";
+            }
+        }
+        </script>
+</html> 

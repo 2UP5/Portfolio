@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Prestige Blooming </title>
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">	<!-- References w3 schools responsiveness stylesheet via the network. Unfortunately results in offline failure risks. -->
+        <link rel="stylesheet" href="../Stylesheets/Global_Styles.css">	<!-- References the stylesheet intended for multi page use. (Due to certain consistent elements requiring some classes within the stylesheet.) -->
+        <link rel="stylesheet" href="../Stylesheets/Services_Styles.css">	<!-- References the stylesheet created specifically for the designs on this page.-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">	<!--References the "Quicksand" font from Google's font API services--> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Laila">	<!--References the "Quicksand" font from Google's font API services--> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">	<!-- Fixes site content to match the device screen the page displays on. -->
+    </head>
+
+    <body class="glob_Page">
+        
+        <!-- Site Header -->
+        <div style="position: fixed;">
+            <section class="glob_Section1">
+                <!-- <div class="glob_Announcement_Header">
+                </div> -->
+                
+                <section class="glob_Desktop_Logo">
+                    
+                    <h3 class="site_Title"> PRESTIGE BLOOMING </h3>
+
+                    <section class="glob_Nav_Section">
+                        
+                        <div class="glob_Nav">
+                            <a href="../index.html" title="Home" class="glob_NavButtons"> HOME </a>
+                            <a href="About.html" title="About" class="glob_NavButtons"> ABOUT </a>
+                            <a href="Services.html" title="Services" class="glob_NavButtons"> SERVICES </a>
+                            <a href="Contact.html" title="Contact" class="glob_NavButtons"> CONTACT </a>
+                            <!-- <img style="width: 100%; margin-left: 20%;" src="Images/Home_Images/banner_plants.png"> </img> -->
+                        </div>
+                        
+                    </section>
+                </section>
+
+                
+                <section class="glob_Mobile_Nav">
+                    <a onclick="toggle_HamMenu()">
+                        <img style="width: 10%;" src="../Images/ham_menu.jpg"> </img>
+                    </a>
+                    
+                    <img style="width: 35%; margin-left: 20%;" src="../Images/LOGO2.png"> </img>
+                </section>
+                <!-- <img class="logo" src="Images/Logo.JPG"> -->
+            </section>
+            
+    
+            <section class="ham_Menu_Links" style="display: none;">
+                <div>
+                    <a href="../index.html" title="Home" class="glob_NavButtons"> HOME </a>
+                    <a href="About.html" title="About" class="glob_NavButtons"> ABOUT </a>
+                    <a href="Services.html" title="Services" class="glob_NavButtons"> SERVICES </a>
+                    <a href="Contact.html" title="Contact" class="glob_NavButtons"> CONTACT </a>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="banner_Section">
+            <section class="bannerSlides">      
+                <img class="banner_Image" src="../Images/Home_Images/banner1.png" alt="Prestige Blooming - banner with garden previews">    
+            </section>
+
+            <section class="bannerSlides">      
+                <img class="banner_Image" src="../Images/Home_Images/banner2.png" alt="Prestige Blooming - banner with garden previews">    
+            </section>
+        </div>
+
+        <div>
+             <!-- services Section -->
+            <section class="services_Section1">        
+                <div class="services_SortHeader">
+                    <p class="services_SortHeaderContent">Services</p>
+                    <!-- <p class="services_SortHeaderContent">FILTER</p> -->
+                </div>
+        
+                <div class="services_Desktop_Tiled">
+                    <div class="services_List">
+
+                        <div style="margin-left: 10%; margin-right: 10%;">
+                            <div style="padding-top: 2.5%; padding-bottom: 2.5%; padding-left: 10%; padding-right: 10%; background-color: #2c6441; color: white; box-shadow: 5px 5px 20px black;">
+                                <p>Our services offer affordable garden design solutions that beautify homes while promoting family well-being. 
+                                    We prioritise cost effectiveness, creativity, sustainability, family-oriented spaces and a personalised approach to ensure that every garden we create is a unique reflection of our clients' desires
+                                    with peace of mind to clients who wish to transform their gardens without breaking the bank.
+                                    Besides just transforming your space, property value will increase and well-being and mental health will improve as experience and studies into the relation between natural surroundings and the human mind.
+                                </p>
+                            </div>
+
+
+                            <h3 style="margin-top: 5%;">Range of services available:</h3>
+                            <ul>
+                                <li>Garden Integration: Specialisation in seamlessly integrating gardens with existing home spaces, ensuring a harmonious transition from indoor to outdoor living therefore being cost-effective and sustainable.</li>
+                                <li>Seasonal Planting: Seasonal vegetation both indoors and outdoors</li>
+                                <li>Garden cleanups</li>
+                                <li>Organic Plants: Personally grown plants and vegetables for sale 
+                                    (English and Jamaican vegetables)
+                                </li>
+                                <li>Tropical Planting</li>
+                            </ul> 
+                            <div>
+                                <p style="margin-left: 1%;">Variety of bookings available weekly, fortnightly or monthly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="services_Mobile_Tiled"></div>
+                    
+                
+            </section>
+        </div>
+       
+    </body>
+
+
+    <footer>
+        <div class="glob_Footer_Div">
+            <p class="glob_Footer_Text"> Prestige Blooming </p>
+        </div>
+    </footer>
+
+
+    <script>
+        let slideIndex = 0;
+        showBanners();
+        
+        function showBanners() {
+          let i;
+          let slides = document.getElementsByClassName("bannerSlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showBanners, 3000); // Change image every 2 seconds
+        }
+
+
+        function toggle_HamMenu() {
+            var menu = document.getElementsByClassName("ham_Menu_Links");
+            if (menu[0].style.display != "none") {
+                
+                menu[0].style.animationName = "hide_Ham_Menu_Anim";
+                setTimeout(setDisplay, 500, menu);
+                
+            } else {
+
+                menu[0].style.animationName = "show_Ham_Menu_Anim";
+                setTimeout(setDisplay, 0, menu)
+            }
+        }
+
+        function setDisplay(menu)
+        {
+            if (menu[0].style.display != "none") {
+                
+                menu[0].style.display = "none";
+                
+            } else {
+
+                menu[0].style.display = "block";
+            }
+        }
+    </script>
+</html>

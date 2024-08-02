@@ -1,0 +1,36 @@
+.contact_Title {margin-top: 10%; font-size: 30px; font-weight: bold; font-family: Lora; letter-spacing: 5px; color: aliceblue; text-shadow: 1px 1px 40px aliceblue;}
+.contact_SubTitle {width:100%; background-color: black; padding-top: 0.5%; padding-left: 2.5%; padding-bottom: 1%;}
+
+
+.contact_Section1 {width: 100%; margin-left: auto; margin-right: auto; background-color: whitesmoke;}
+.contact_List {width: 100%; margin-left: auto; margin-right: auto; padding-top: 5%; background-color: whitesmoke; display: inline-flex;}
+.contact_SortHeader{display: inline-flex; width: 100%; color: aliceblue; background-color: black; padding-top: 2%; padding-bottom: 2.5%; box-shadow: 5px 5px 20px black;}
+
+.contact_SortHeaderContent {margin-left: 5%; text-align: center; font-size: 20px; font-weight: bold; font-family: Lora; letter-spacing: 5px; color: aliceblue;}
+
+.contact_Desktop_Tiled {width: 100%; display: inline-flex;}
+.contact_Mobile_Tiled {display: none;}
+
+.contact_Image {margin-left: 25%; width: 50%;}
+.contact_Name {color: black; margin-left: 5%; width: 50%; font-weight:bold; font-family: Laila;}
+p {font-family: Lora; font-size: large;}
+
+.contact_Titles {color:aliceblue; font-size: 25px; padding-top: 5%;}
+a {text-decoration: none;}
+
+@media (max-width: 915px) {
+    
+    .site_Title {margin-top: 5%;}
+
+    .contact_Title {margin-right: 0%; font-size: 15px;}
+    .contact_Section1 {width: 100%}
+
+    .contact_Image {margin-left: 25%; width: 60%;}
+    .contact_Name {margin-left: 5%;}
+
+    .contact_SortHeaderContent {margin-top: 20%; font-size: 14px;}
+
+    .contact_Desktop_Tiled {display: none;}
+    .contact_Mobile_Tiled {width: 100%; display: block;}
+    p {font-size: smaller;}
+}

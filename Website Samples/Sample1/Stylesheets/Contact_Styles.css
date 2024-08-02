@@ -1,0 +1,18 @@
+.contact_Title {font-size: 30px; font-weight: bold; font-family: Lora; letter-spacing: 5px; color: aliceblue; text-shadow: 1px 1px 40px aliceblue;}
+.contact_SubTitle {width:100%; background-color: black; padding-top: 0.5%; padding-left: 2.5%; padding-bottom: 1%;}
+
+.contact_Section1 {width: 75%; margin-left: auto; margin-right: auto; background-color: #d469ab;}
+
+p {color: aliceblue; font-family: Lora; font-size: large;}
+.contact_Titles {color:aliceblue; font-size: 25px; padding-top: 5%;}
+
+
+@media (max-width: 915px) {
+    
+    .site_Title {margin-top: 5%;}
+
+    .contact_Title {margin-right: 0%; font-size: 15px;}
+    .contact_Section1 {width: 85%}
+
+    p {font-size: smaller;}
+}

@@ -1,0 +1,79 @@
+.glob_Section1 {width: 100vw; background-color: #2c6441; margin-top: -5.5%; color: aliceblue; display: inline-flex; box-shadow: 2px 2px 20px black; background-image: url("border_plants_2.png"); background-size: cover; background-repeat: repeat; background-position: 50%; background-blend-mode:multiply;}
+.glob_Announcement_Header {width: 100%; padding-top: 1.5%;}
+.glob_Announcement_Text {text-align: center; font-family: Laila; letter-spacing: 2px; font-size: 20px;}
+
+.glob_Desktop_Logo {width: 70%;  margin-left: auto; margin-right: auto; display: block; text-align: center;}
+
+.glob_Page {width: 100%; display: flexbox; background-color: #2c6441; height: 100%; overflow-y: hidden;}
+
+.glob_Nav {width: 100%; display: inline-flex;} 
+.glob_Nav_Section {display: block; width:100%; text-align: center; background-color: #2c6441; margin-top: -2%; background-image: url("banner_plants_2.png"), url(banner_plants.png); background-size: 25%; background-repeat: repeat; background-position: center; background-blend-mode: multiply; }
+.glob_NavButtons {margin-left: 10%; margin-top:4%; margin-right: auto; padding-bottom: 1.5%; font-size: 11px; font-weight: bold; font-family: Lora; letter-spacing: 2px; color: aliceblue; text-decoration: none;}
+.glob_Mobile_Nav {margin-top: 1%; display: none;}
+
+.glob_Footer_Div {width: 100%; background-color: #2c6441; height: 10%;}
+.glob_Footer_Text {display: block; padding-top: 20px; padding-bottom: 10%; color: aliceblue; text-align: center; font-family: Lora;}
+
+.site_Title {width: 100%; margin-top: 10%; text-align: center; font-weight: bold; word-wrap: break-word; font-family: Lora; font-size: 24px; letter-spacing: 10px; word-wrap: break-word;}
+.site_Title_Motto {width: 100%; margin-left:auto; margin-right:auto; text-align: center; word-wrap: break-word; font-family: Laila; font-size: 20px;}
+
+.logo{display: flex; width: 5%; margin-left: auto; margin-right: auto;}
+
+.ham_Menu_Links {display: none; background-color: #2c6441;}
+
+.banner_Section {width: 50%; margin-left: auto; margin-right: auto; margin-top: 7.5%; background-color: rgba(163, 0, 0, 0);}
+.bannerSlides {display: none;}
+.banner_Image {width: 1920px; height: 400px}
+
+hr {background-color: #043927; height: 5px; padding-top: 0.5px; box-shadow: 0px 5px 10px black;}
+a:hover {text-shadow: 5px 5px 10px white; opacity: 0.5;}
+
+@keyframes show_Ham_Menu_Anim 
+{
+    from {transform: translateX(-200%);} 
+    to {transform: translateX(0%);}
+}
+
+
+@keyframes hide_Ham_Menu_Anim 
+{
+    from {transform: translateX(0%);} 
+    to {transform: translateX(-200%);}
+}
+
+
+@media screen and (max-width: 915px) {
+
+    .glob_Section1{padding-bottom: 3%;}
+    
+    .glob_Announcement_Header {width: 100vw; background-color: #043927; height: 5px; padding-top: 0.5px;}
+    .glob_Announcement_Text {color: aliceblue; text-align: center; font-family: Laila; margin-top: 7px; letter-spacing: 2px; font-size: 18px;}
+
+    .glob_Desktop_Logo {display: none; }
+
+    .glob_Nav {width: 100%; display: inline-flex; margin-top: 5%;} 
+    .glob_NavButtons {margin-left: 10%; font-size: 12px; font-weight: lighter; font-family: Lora; letter-spacing: 2px; text-shadow: 0px 0px 0px aliceblue; }
+    .glob_Nav_Section {display: none;}
+    .glob_Mobile_Nav {display: block; box-shadow: 15px 15px 40px #2c6441;}
+    
+    .glob_Footer_Div {background-color: #2c6441; height: 10%;}
+    .glob_Footer_Text {display: block; padding-top: 30px; padding-bottom: 10%; color: aliceblue; text-align: center; font-family: Lora;}
+
+    .site_Title {font-size: 16px;}
+
+    hr {background-color: #2c6441; height: 1.5px; padding-top: 0.5px;}
+
+    .ham_Menu_Links {display: none; width: 35%; height: 100%; line-height: 100%; font-size: 50px; background-color: #2c6441; box-shadow: 2px 2px 10px #2c6441; margin-top: -5%; padding-top: 10%; padding-bottom: 200%; animation-name: show_Ham_Menu_Anim; animation-duration: 1.5s;}
+
+    a:hover {text-shadow: 5px 5px 10px white; opacity: 1;}
+}
+
+
+@media (min-height: 1000px) and (max-height: 1400px)
+{
+
+    .glob_Section1{padding-bottom: 1.5%;}
+    .glob_Nav {width: 100%;} 
+    .glob_NavButtons {font-size: 14px;}
+
+}

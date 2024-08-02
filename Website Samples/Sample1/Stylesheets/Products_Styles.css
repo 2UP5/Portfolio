@@ -1,0 +1,36 @@
+.products_Title {margin-top: 10%; font-size: 30px; font-weight: bold; font-family: Lora; letter-spacing: 5px; color: aliceblue; text-shadow: 1px 1px 40px aliceblue;}
+.products_SubTitle {width:100%; background-color: black; padding-top: 0.5%; padding-left: 2.5%; padding-bottom: 1%;}
+
+
+.products_Section1 {width: 100%; margin-left: auto; margin-right: auto; background-color: whitesmoke; padding-bottom: 5%;}
+.products_List {width: 100%; margin-left: auto; margin-right: auto; padding-top: 5%; background-color: whitesmoke; display: inline-flex;}
+.products_SortHeader{display: inline-flex; width: 100%; color: aliceblue; background-color: black; padding-top: 10%; padding-bottom: 2.5%; box-shadow: 5px 5px 20px black;}
+
+.products_SortHeaderContent {margin-left: 5%; text-align: center; font-size: 20px; font-weight: bold; font-family: Lora; letter-spacing: 5px; color: aliceblue;}
+
+.products_Desktop_Tiled {width: 100%; display: inline-flex;}
+.products_Mobile_Tiled {display: none;}
+
+.product_Image {margin-left: 25%; width: 50%;}
+.product_Name {color: black; margin-left: 25%; width: 50%; font-weight:bold; font-family: Laila;}
+p {font-family: Lora; font-size: large;}
+
+.contact_Titles {color:aliceblue; font-size: 25px; padding-top: 5%;}
+a {text-decoration: none;}
+
+@media (max-width: 915px) {
+    
+    .site_Title {margin-top: 5%;}
+
+    .products_Title {margin-right: 0%; font-size: 15px;}
+    .products_Section1 {width: 100%}
+
+    .product_Image {margin-left: 25%; width: 60%;}
+    .product_Name {margin-left: 25%;}
+
+    .products_SortHeaderContent {margin-top: 20%; font-size: 14px;}
+
+    .products_Desktop_Tiled {display: none;}
+    .products_Mobile_Tiled {width: 100%; display: inline-table;}
+    p {font-size: smaller;}
+}

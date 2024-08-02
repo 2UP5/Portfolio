@@ -1,4 +1,4 @@
-<h1 align="center">$${\textsf{\color{#40E0D0}2UP5}}$$ $${\textsf{\color{#40E0D0}(Richard)}}$$ </h1>
+<h1 align="center">$${\textsf{\color{#40E0D0}Richard}}$$ </h1>
 <h3 align="center">Multi-faceted Developer with experience Programming, 3D Modelling and Indie Game Development.</h3>
 <h3 align="center">Game Developer | Programmer | 3D Modeller </h3>
 <h1> </h1>

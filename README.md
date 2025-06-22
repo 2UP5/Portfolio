@@ -4,7 +4,13 @@
 <h1> </h1>
 
 <img src="https://github.com/2UP5/Portfolio/blob/Game-Development/Stardust/4K_teaser2.png"></img>
-[![Showcase Reel 2025](https://img.youtube.com/vi/BfrvwNp1mko/maxresdefault.jpg)](https://youtu.be/BfrvwNp1mko)
+
+
+<div>
+  [![Showcase Reel 2025](https://img.youtube.com/vi/BfrvwNp1mko/maxresdefault.jpg)](https://youtu.be/BfrvwNp1mko)
+  <p> Click the preview to watch my 2025 Showcase Reel or<a href=https://youtu.be/BfrvwNp1mko> here </a> </p>
+</div>
+
 
 <div>
   <h4>${\textsf{\color{#40E0D0}Programming:}}$</h4>
